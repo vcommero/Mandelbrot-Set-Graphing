@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="Mandelbrot Set Drawing">
+	<title>Mandelbrot Sets - Vincent Commero</title>
+</head>
+
+<body>
+	
+	<canvas id="canvas1" width="600" height="600" style="border:1px solid #000000">
+	</canvas>
+	<h2>Mandelbrot Sets</h2>
+	<br/>
+	<p>Low Resolution (faster)<input id="resCheckbox" type="checkbox" checked /></p>
+	<h3>Number of Passes: </h3>
+	<h3 id="passes"></h3>
+	<input id="passesNum" type="range" value="20" min="1" max="50" step="1"/>
+	<br/>
+	<input id="computeBtn" type="button" value="Compute" />
+
+</body>
+
+<script src="Mandelbrot Sets Graph Script.js" type="text/javascript"> "use strict"
+</script>
+
+</html>
